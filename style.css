@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.content{
+    background:url(./img/ban.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    top: 0;    
+    color: #fff;
+}
+#nav-bar li a{
+    color: #fff;
+    float: right;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 3px;
+}
+#nav-bar li a:hover{
+    color: yellow;
+}
+.navbar{
+    /* background: black; */
+    font-family: 'Rajdhani', sans-serif;
+}
+ .sticky {
+     background: black;
+     padding: 30px 0;
+ }
+.navbar-brand span{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 400;
+}
+/* home section */
+.home{
+    
+    /* background: coral; */
+    min-height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 200px;
+    color: #fff;
+}
+.text-1{
+    font-size: 30px;
+}
+.text-2{
+    font-size: 50px;
+    font-weight: 200;
+}
+.text-3{
+    font-size: 40px;
+    font-weight: 200;
+}
+.text-3 span{
+    color: yellow;
+    font-weight: 500;
+}
+
+.home-inner a{
+    color: yellow;
+    background:black;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+}
+
+.home-inner a:hover{
+    background: none;
+    color: yellow;
+    text-decoration: none;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 40px;
+}
+.navbar-toggler{
+    outline: none;
+}
+
+.about-text{
+    margin-top: 50px;
+    position: relative;
+    font-size: 50px;
+}
+
+.about-text::before{
+        position: absolute;
+        content: "";
+        bottom: -10px;
+        width: 180px;
+        height: 3px;
+        background: #111;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
+.about-text::after{
+    position: absolute;
+    content: "who i am";
+    bottom: -30px;
+    font-size:  20px;
+    padding: 5px;
+   color: #111;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about .about-row{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.tobi-img{
+    border-radius: 200px;
+}
+.about .about-button{
+    color: yellow;
+    background:black;
+    padding: 2px 25px;
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+    font-weight: 500 ;   
+}
+
+.about .about-button:hover{
+    background: none;
+    color: black;
+}
+
+/* services */
+ .service{
+    background: #111;
+    color: #fff;
+    padding-top: 30px;
+    transition: all 0.3s ease;
+    min-height: 80vh;
+    
+}
+.service-row {
+    background: #222;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    padding-bottom: 30px;
+    
+}
+.service-row .service-icon:hover{
+    fill: #111;
+}
+.service-row:hover{
+    transform: scale(1.05);
+    background: yellow;
+    color:#111;
+    
+
+}
+.service-class{
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.service-text {
+    margin-top: 50px;
+    position: relative;
+    font-size: 50px;
+}
+
+
+.service-text::before{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    width: 180px;
+    height: 3px;
+    background: yellow;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.service-text::after{
+position: absolute;
+content: "what i provide";
+background: #111;
+bottom: -30px;
+font-size:  20px;
+padding: 5px;
+color: #fff;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+/* skills section */
+.skills{
+    padding-top: 30px;
+    transition: all 0.3s ease;      
+}
+
+.skills-text{
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 40px;
+    position: relative;
+}
+
+.skills-text::before{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills-text::after{
+position: absolute;
+content: "who i am";
+bottom: -30px;
+font-size:  20px;
+padding: 5px;
+color: #111;
+background: #fff;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.skill-icon {
+    background: yellow;
+    margin-left: 60px;
+    margin-bottom: 20px
+}
+
+.skill-row{
+    margin: 50px 0;
+}
+/* portfolio */
+.portfolio{
+    margin: 10px 0;
+    font-size: 40px;
+    /* font-family: 'Rajdhani', sans-serif; */
+}
+
+.portfolio .portfolio-text{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 40px;
+}
+.portfolio p{
+    font-weight: 600;
+}
+#first-work {
+    margin-left: 10px;
+}
+#second-work{
+   margin-right: 25px;
+}
+#third-work{
+    margin:0 50px;
+}
+#fourth-work{
+    margin: 40px 0;
+}
+
+#fifth-work{
+    margin: 40px 40px;
+}
+.dark {
+  transform: translateY(-15%);
+}
+
+/* contact */
+.contact{
+    padding-top: 30px;
+    transition: all 0.3s ease; 
+}
+.contact-text{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 40px;
+    position: relative;
+}
+.contact-text::before{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-text::after{
+position: absolute;
+content: "get in touch";
+bottom: -30px;
+font-size:  20px;
+padding: 5px;
+color: #111;
+background: #fff;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.contact .form-content{
+    width:40%;
+}
+.contact .form-content .form1{
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px 10px;
+        border: 2px solid yellow;
+}
+
+.contact .email{
+    color: yellow;
+    background: #111;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.contact .form-content .contact-button{
+    background: black;
+    color: yellow;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px 10px;
+    border-radius: 20px;
+}
+.contact .form-content .contact-button:hover{
+    border: 2px solid yellow;
+    background: none;
+    color: black;
+}
+/* footer */
+.footer-end {
+    background: #111;
+    margin-top: 5px;
+    min-height: 80vh;
+    font-family: 'Rajdhani', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.footer-end .img {
+   justify-content: center;
+   align-self: center;
+   margin-right: 20px;
+}
+
+.footer-end .img a .media-img:hover{
+    color: yellow;
+}
+.footer-end-text {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 150px;
+}
+.footer-end-text span{
+    color: yellow;
+    font-size: 60px;
+}
+
+.media-img{
+    margin-left: 30px;
+   
+}
+.footer-end .end{
+    background: #222;
+    color: #fff;
+    margin-top: 160px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-end .end p{
+    align-self: center;
+    padding: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.footer-end .end p span{
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
