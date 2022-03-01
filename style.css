@@ -5,7 +5,9 @@
     text-decoration: none;
     transition: all 0.3s ease;
 }
-
+.works{
+    width: 95%;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -282,19 +284,38 @@ transform: translateX(-50%);
 }
 #first-work {
     margin-left: 10px;
+    width: 300px;
 }
 #second-work{
-   margin-right: 25px;
+   margin-right: 20px;
+   width: 360px;
+   height: 200px;
 }
 #third-work{
     margin:0 50px;
+    width: 350px;  
+    height: 200px; 
 }
 #fourth-work{
     margin: 40px 0;
+    width: 320px;
 }
 
 #fifth-work{
-    margin: 40px 40px;
+    margin-right: 25px;
+    margin-top: 40px;
+    width:350px;
+    height: 200px;
+}
+#sixth-work{
+   width: 390px;
+   margin-left: 40px;
+   height: 200px;
+   margin-top: 40px;
+}
+#seventh-work{
+    width: 350px;
+    height: 200px;
 }
 .dark {
   transform: translateY(-15%);
